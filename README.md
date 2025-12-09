@@ -1,12 +1,12 @@
-# Checkers Game Engine ♟️  
+# Checkers Game Engine  
 A Python implementation of the Checkers rules engine, including kings, triple kings, move validation, and full unit tests.
 
-## 👋 About This Project
+## About This Project
 This project is a complete, object-oriented Checkers game engine that I built and later refined to strengthen my skills in Python, rule-based systems, and test-driven design. It simulates the internal logic of a playable Checkers match—tracking turns, validating moves, enforcing capture rules, handling promotions, and determining when the game ends.
 
 Although this began as part of my coursework at Oregon State University, I have since cleaned it up, documented it, and expanded the testing to serve as a solid portfolio piece that demonstrates how I think through game logic, data modeling, and error handling.
 
-## 🚀 What This Engine Can Do
+## What This Engine Can Do
 ### Game Logic
 - Turn order is enforced (Black always moves first).
 - All moves must be diagonal and legal.
@@ -41,7 +41,7 @@ This helps ensure correctness and also shows how I approach writing automated te
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 This project highlights several core engineering skills I value:
 
 - Python OOP design  
@@ -56,7 +56,7 @@ These are the same skills used heavily in backend engineering, QA automation, ga
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 CheckersGame/
 ├── CheckersGame.py # Game logic and classes
@@ -65,9 +65,11 @@ CheckersGame/
 
 ---
 
-## 🧩 Quick Example
+## Quick Example
 
-```python
+```
+python
+
 from CheckersGame import Checkers
 
 game = Checkers()
@@ -86,12 +88,16 @@ game.print_board()
 
 # Check status
 print(game.game_winner())  # "Game has not ended"
-🧪 Running the Tests
+```
+
+## Running the Tests
+```
 python -m unittest CheckersGameTester.py
-🏁 Final Thoughts
+```
+## Final Thoughts
 I’m proud of this project because it reflects how I approach problem-solving: breaking down a complex set of rules, enforcing them with clear logic, and validating behavior through automated testing.
 If you’d like to chat about the implementation or discuss any part of the logic, feel free to reach out!
 
-👋 Connect With Me
-LinkedIn: https://www.linkedin.com/in/trevor-depalatis/
-GitHub: https://github.com/TDePalatis
+## Connect With Me
+- LinkedIn: https://www.linkedin.com/in/trevor-depalatis/
+- GitHub: https://github.com/TDePalatis
