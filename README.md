@@ -57,12 +57,12 @@ These are the same skills used heavily in backend engineering, QA automation, ga
 ---
 
 ## File Structure
-
+```
 CheckersGame/
 ├── CheckersGame.py # Game logic and classes
 ├── CheckersGameTester.py # Automated unit tests
 └── README.md # Project documentation
-
+```
 ---
 
 ## Quick Example
